@@ -43,7 +43,7 @@ public class HotelManager {
 
         if (!hotel.getGuestInHotel().contains(guestToAdd)) {
             hotel.getGuestInHotel().add(guestToAdd);
-            System.out.println(String.format("%s %s has been sucessfully added into %s guests list", guestToAdd.getGuestFirstName(), guestToAdd.getGuestLastName(), hotel.getHotelName()));
+            System.out.println(String.format("%s %s has been successfully added into %s guests list", guestToAdd.getGuestFirstName(), guestToAdd.getGuestLastName(), hotel.getHotelName()));
         } else {
             System.out.println("This guest has been already added to our hotel guest list");
         }
